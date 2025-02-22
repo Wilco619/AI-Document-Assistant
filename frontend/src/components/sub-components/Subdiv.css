@@ -1,0 +1,70 @@
+.sub-div {
+    height: 80px;
+    border-radius: 5px;
+    background-color: #6c757d2e;
+    overflow: hidden;
+}
+
+.sub-div h1 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.766);
+    margin: 5px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sub-div p {
+    margin: 4px;
+    padding-left: 5px;
+    color: #4241417c;
+    font-size: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sub-div-container {
+    width: 100%;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    overflow: hidden;
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large Devices (Desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .sub-div {
+        height: 70px;
+        border-radius: 3px;
+        background-color: #6c757d2e;
+    }
+    
+    .sub-div h1 {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.766);
+        margin: 5px;
+    }
+    
+    .sub-div p {
+        margin: 4px;
+        padding-left: 5px;
+        color: #4241417c;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .sub-div-container {
+        width: 70%;
+        display: grid;
+        margin: 5px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+    }
+ 
+}

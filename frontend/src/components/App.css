@@ -1,0 +1,105 @@
+.sidenav {
+    position: relative;
+}
+
+.sidenav-logo{
+    height: 50px;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.collapsible-list {
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.collapsible-list.closed {
+    max-height: 0;
+    opacity: 0;
+}
+
+.collapsible-list.open {
+    max-height: 200px;
+    opacity: 1;
+}
+
+.collapsible-list li{
+    padding-left: 20px;
+}
+
+.collapsible-list li:hover {
+    background-color: #6c757d2e;
+}
+
+.collapsible-list a:hover{
+    background-color: transparent;
+}
+
+.collapsible-list a{
+    display: block;
+}
+
+
+.smooth-transition {
+    opacity: 1;
+    height: auto;
+    /* or specify a specific height */
+    transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.links {
+    margin-top: 25px;
+    height: 90vh;
+}
+
+.link-footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.link-footer ul li a {
+    font-size: 11px;
+}
+
+.links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/* .links a.active {
+    background-color: #6c757d2e;
+} */
+
+.links a .icon-only {
+    justify-content: center;
+    align-items: center;
+}
+
+.links a:hover {
+    background-color: #6c757d2e;
+}
+
+.links .d-none {
+    display: none;
+    /* Hide elements */
+}
+
+.welcome-text {
+    font-size: .9rem; /* Adjust the font size as needed */
+    margin-right: 10px;
+    text-transform: capitalize; /* Optional: Adjust the margin */
+}
+
+.warning-page{
+    text-align: center;
+    padding-top: 300px;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}

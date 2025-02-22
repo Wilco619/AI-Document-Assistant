@@ -1,0 +1,122 @@
+.form {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 2px;
+    margin: 0;
+    height: 100vh;
+}
+
+.form-section {
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    display: block;
+}
+
+.form-section input,
+.form-section select {
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+.form-section button {
+    width: 90%;
+    padding: 8px;
+    height: 45px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    background-color: #135D66;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-section .btncustomer {
+    width: 40%;
+    float: left;
+    margin-left: 44px;
+    margin-top: 30px;
+   
+}
+
+.form-section button:hover {
+    background-color: #6c757da7;
+}
+
+
+/* Medium Devices (Tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large Devices (Desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .form {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        padding: 45px 2px;
+        margin: 5px;
+        height: 300px;
+        justify-content: space-evenly;
+    }
+
+    .form-section {
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+        text-align: center;
+        display: block;
+    }
+
+    .form-section input,
+    .form-section select {
+        width: 90%;
+        padding: 5px;
+        margin: 5px;
+        height: 40px;
+        border: none;
+        background-color: #f0f0f0;
+        border-radius: 1px;
+        font-size: 16px;
+    }
+
+    .form-section button {
+        width: 90%;
+        padding: 8px;
+        height: 45px;
+        margin-top: 55px;
+        background-color: #135D66;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .form-section .btncustomer {
+        width: 40%;
+        float: left;
+        margin-left: 44px;
+        margin-top: 30px;
+    }
+
+    .form-section button:hover {
+        background-color: #6c757da7;
+    }
+}
